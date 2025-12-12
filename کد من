@@ -1,0 +1,23 @@
+# برنامه محاسبه میانگین نمرات
+
+grades = []  # لیست برای ذخیره نمرات
+
+num_grades = int(input("چند نمره می‌خواهید وارد کنید؟ "))
+
+ 
+
+# دریافت نمرات از کاربر
+
+for i in range(num_grades):
+
+    grade = float(input(f"نمره {i+1} را وارد کنید: "))
+
+    grades.append(grade)
+
+ 
+
+# محاسبه میانگین
+
+average = sum(grades) / len(grades)
+
+print(f"میانگین نمرات شما: {average:.2f}")
