@@ -1,0 +1,1 @@
+print("Hloo,ariya asadi")
